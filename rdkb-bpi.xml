@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+    <remote name="cmf" review="https://code.rdkcentral.com/r/" fetch="https://code.rdkcentral.com/r/"/>
+    <remote name="github" fetch="https://github.com" review=""/>
+    <remote name="yocto" fetch="http://git.yoctoproject.org/git" review=""/>
+    <remote name="openembedded" fetch="https://git.openembedded.org" review=""/>
+    <remote name="mediatek" fetch="https://git01.mediatek.com" review=""/>
+    <default remote="cmf" revision="master" sync-j="2"/>
+    <include name="oe-layers.xml"/>
+    <project name="filogic/rdk-b/meta-cmf-filogic" remote="mediatek" path="meta-cmf-filogic" revision="39973f0b37b6afef2be10640bedd9efb359530df"/>
+    <project name="filogic/rdk-b/meta-filogic" remote="mediatek" path="meta-filogic" revision="4d1a2a549791f1d57c83d8be89927aed647b62ea"/>
+    <project name="plume-design/meta-rdk-opensync" remote="github" path="meta-rdk-opensync" revision="osync_4.4.0"/>
+    <project name="rdk/components/generic/rdk-oe/meta-cmf" path="meta-cmf" revision="rdk-next"/>
+    <project name="rdk/components/generic/rdk-oe/meta-cmf-broadband" path="meta-cmf-broadband" revision="rdk-next"/>
+    <project name="rdk/components/generic/rdk-oe/meta-cmf-mesh" path="meta-cmf-mesh" revision="rdk-next"/>
+    <project name="rdk/components/generic/rdk-oe/meta-rdk" path="meta-rdk" revision="rdk-next"/>
+    <project name="rdk/components/generic/rdk-oe/meta-rdk-broadband" path="meta-rdk-broadband" revision="rdk-next"/>
+    <project name="rdk/components/generic/rdk-oe/meta-rdk-ext" path="meta-rdk-ext" revision="rdk-next"/>
+    <project name="rdkcentral/meta-cmf-bananapi" remote="github" path="meta-cmf-bananapi" revision="develop"/>
+    <project name="rdkcentral/meta-rdk-wan" remote="github" path="meta-rdk-wan" revision="main"/>
+</manifest>
