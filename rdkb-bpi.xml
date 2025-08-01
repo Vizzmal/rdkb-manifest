@@ -23,7 +23,7 @@
     <!-- RDK-B layers -->
     <project name="rdk/components/generic/rdk-oe/meta-cmf" path="meta-cmf" revision="rdk-next"/>
     <project name="rdk/components/generic/rdk-oe/meta-cmf-broadband" path="meta-cmf-broadband" revision="feature/Update-adv-security-recipe"/>
-    <project name="rdk/components/generic/rdk-oe/meta-cmf-mesh" path="meta-cmf-mesh" revision="rdk-next"/>
+    <project name="rdk/components/generic/rdk-oe/meta-cmf-mesh" path="meta-cmf-mesh" revision="feature/Update-mesh-agent-recipe"/>
     <project name="rdk/components/generic/rdk-oe/meta-rdk" path="meta-rdk" revision="rdk-next"/>
     <project name="rdk/components/generic/rdk-oe/meta-rdk-ext" path="meta-rdk-ext" revision="rdk-next"/>
     <project name="rdkcentral/meta-cmf-bananapi" remote="github" path="meta-cmf-bananapi" revision="develop"/>
