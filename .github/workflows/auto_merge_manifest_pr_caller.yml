@@ -6,6 +6,7 @@ on:
     branches:
       - develop
       - 'support/*.*.*'
+      - feature/Update-workflows
 
 jobs:
   call_auto_pr_workflow:
