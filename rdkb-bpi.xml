@@ -1,9 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-    <remote name="cmf" review="https://code.rdkcentral.com/r/" fetch="https://code.rdkcentral.com/r/"/>
-    <remote name="github" fetch="https://github.com" review=""/>
-    <remote name="yocto" fetch="http://git.yoctoproject.org/git" review=""/>
-    <remote name="openembedded" fetch="https://git.openembedded.org" review=""/>
+    <remote name="cmf" fetch="https://code.rdkcentral.com/r/" review="https://code.rdkcentral.com/r/"/>
+    <remote name="github" fetch="https://github.com" review="https://github.com"/>
+    <remote name="rdkcentral" fetch="https://github.com/rdkcentral" review="https://github.com/rdkcentral" />
     <remote name="mediatek" fetch="https://git01.mediatek.com" review=""/>
     <default remote="cmf" revision="master" sync-j="2"/>
 
@@ -26,7 +25,7 @@
     <project name="rdk/components/generic/rdk-oe/meta-cmf-mesh" path="meta-cmf-mesh" revision="rdk-next"/>
     <project name="rdk/components/generic/rdk-oe/meta-rdk" path="meta-rdk" revision="rdk-next"/>
     <project name="rdk/components/generic/rdk-oe/meta-rdk-ext" path="meta-rdk-ext" revision="rdk-next"/>
-    <project name="rdkcentral/meta-cmf-bananapi" remote="github" path="meta-cmf-bananapi" revision="develop"/>
-    <project name="rdkcentral/meta-rdk-wan" remote="github" path="meta-rdk-wan" revision="main"/>
-    <project name="rdkcentral/meta-rdk-broadband" remote="github" path="meta-rdk-broadband" revision="develop"/>
+    <project name="meta-cmf-bananapi" remote="rdkcentral" path="meta-cmf-bananapi" revision="develop"/>
+    <project name="meta-rdk-wan" remote="rdkcentral" path="meta-rdk-wan" revision="main"/>
+    <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="develop"/>
 </manifest>
