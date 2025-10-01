@@ -27,5 +27,5 @@
     <project name="rdk/components/generic/rdk-oe/meta-rdk-ext" path="meta-rdk-ext" revision="rdk-next" />
     <project name="meta-cmf-bananapi" remote="rdkcentral" path="meta-cmf-bananapi" revision="develop" />
     <project name="meta-rdk-wan" remote="rdkcentral" path="meta-rdk-wan" revision="main" />
-    <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="8f21d9df40a7605912719b4d003f25f189df6484" />
+    <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="ebf98f9f302f67e53f900bcc810080385a58b761" />
 </manifest>
