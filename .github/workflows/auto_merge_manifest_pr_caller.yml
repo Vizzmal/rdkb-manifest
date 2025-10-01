@@ -6,6 +6,10 @@ on:
     branches:
       - develop
       - 'support/*.*.*'
+  workflow_run:
+    workflows: ["Signature / Check"]
+    types:
+      - completed
 
 jobs:
   call_auto_pr_workflow:
