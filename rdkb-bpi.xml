@@ -6,19 +6,11 @@
     <remote name="mediatek" fetch="https://git01.mediatek.com" review="" />
     <default remote="cmf" revision="master" sync-j="2" />
 
-    
-    <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="rdk/kirkstone" />
-    <project name="rdk/components/opensource/oe/meta-clang" path="meta-clang" revision="rdk/kirkstone" />
-    <project name="rdk/components/opensource/oe/meta-gplv2" path="meta-gplv2" revision="kirkstone" />
-    <project name="rdk/components/opensource/oe/meta-openembedded" path="meta-openembedded" revision="rdk/kirkstone" />
-    <project name="rdk/components/opensource/oe/meta-virtualization" path="meta-virtualization" revision="rdk/kirkstone" />
-    <project name="rdk/components/opensource/oe/openembedded-core" path="openembedded-core" revision="rdk/kirkstone" />
+    <include name="oe-layers.xml"/>
     <project name="plume-design/meta-rdk-opensync" remote="github" path="meta-rdk-opensync" revision="osync_4.4.0" />
 
-    
     <project name="filogic/rdk-b/meta-cmf-filogic" remote="mediatek" path="meta-cmf-filogic" revision="39973f0b37b6afef2be10640bedd9efb359530df" />
     <project name="filogic/rdk-b/meta-filogic" remote="mediatek" path="meta-filogic" revision="4d1a2a549791f1d57c83d8be89927aed647b62ea" />
-
     
     <project name="rdk/components/generic/rdk-oe/meta-cmf" path="meta-cmf" revision="rdk-next" />
     <project name="rdk/components/generic/rdk-oe/meta-cmf-mesh" path="meta-cmf-mesh" revision="rdk-next" />
