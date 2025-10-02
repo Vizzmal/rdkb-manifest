@@ -6,7 +6,7 @@
     <remote name="mediatek" fetch="https://git01.mediatek.com" review="" />
     <default remote="cmf" revision="master" sync-j="2" />
 
-    <include name="oe-layers.xml"/>
+    <include name="oe-layers.xml" />
     <project name="plume-design/meta-rdk-opensync" remote="github" path="meta-rdk-opensync" revision="osync_4.4.0" />
 
     <project name="filogic/rdk-b/meta-cmf-filogic" remote="mediatek" path="meta-cmf-filogic" revision="39973f0b37b6afef2be10640bedd9efb359530df" />
@@ -18,6 +18,6 @@
     <project name="rdk/components/generic/rdk-oe/meta-rdk-ext" path="meta-rdk-ext" revision="rdk-next" />
     <project name="rdkcentral/meta-cmf-bananapi" remote="github" path="meta-cmf-bananapi" revision="develop" />
     <project name="rdkcentral/meta-rdk-wan" remote="github" path="meta-rdk-wan" revision="main" />
-    <project name="meta-cmf-broadband" remote="rdkcentral" path="meta-cmf-broadband" revision="910f1e64c7f609cb9ab745b6b61ce0a0871a27c1" />
+    <project name="meta-cmf-broadband" remote="rdkcentral" path="meta-cmf-broadband" revision="040fdc44b53aab0de4a3854dd90ad67103da038d" />
     <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="62340fd71c4a6040067839512056901be56db515" />
 </manifest>
