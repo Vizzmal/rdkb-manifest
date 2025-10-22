@@ -6,27 +6,19 @@
     <remote name="mediatek" fetch="https://git01.mediatek.com" review="" />
     <default remote="cmf" revision="master" sync-j="2" />
 
-    
-    <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="rdk/kirkstone" />
-    <project name="rdk/components/opensource/oe/meta-clang" path="meta-clang" revision="rdk/kirkstone" />
-    <project name="rdk/components/opensource/oe/meta-gplv2" path="meta-gplv2" revision="kirkstone" />
-    <project name="rdk/components/opensource/oe/meta-openembedded" path="meta-openembedded" revision="rdk/kirkstone" />
-    <project name="rdk/components/opensource/oe/meta-virtualization" path="meta-virtualization" revision="rdk/kirkstone" />
-    <project name="rdk/components/opensource/oe/openembedded-core" path="openembedded-core" revision="rdk/kirkstone" />
+    <include name="oe-layers.xml" />
     <project name="plume-design/meta-rdk-opensync" remote="github" path="meta-rdk-opensync" revision="osync_4.4.0" />
 
-    
     <project name="filogic/rdk-b/meta-cmf-filogic" remote="mediatek" path="meta-cmf-filogic" revision="39973f0b37b6afef2be10640bedd9efb359530df" />
     <project name="filogic/rdk-b/meta-filogic" remote="mediatek" path="meta-filogic" revision="4d1a2a549791f1d57c83d8be89927aed647b62ea" />
-
     
     <project name="rdk/components/generic/rdk-oe/meta-cmf" path="meta-cmf" revision="rdk-next" />
     <project name="rdk/components/generic/rdk-oe/meta-cmf-mesh" path="meta-cmf-mesh" revision="rdk-next" />
     <project name="rdk/components/generic/rdk-oe/meta-rdk" path="meta-rdk" revision="rdk-next" />
     <project name="rdk/components/generic/rdk-oe/meta-rdk-ext" path="meta-rdk-ext" revision="rdk-next" />
-    <project name="meta-cmf-bananapi" remote="rdkcentral" path="meta-cmf-bananapi" revision="develop" />
-    <project name="meta-cmf-broadband" remote="rdkcentral" path="meta-cmf-broadband" revision="25a46817dbea7871b5457c3f7353d1b4af83df43" />
-    <project name="meta-rdk-wan" remote="rdkcentral" path="meta-rdk-wan" revision="main" />
-    <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="62340fd71c4a6040067839512056901be56db515" />
+    <project name="rdkcentral/meta-cmf-bananapi" remote="github" path="meta-cmf-bananapi" revision="develop" />
+    <project name="rdkcentral/meta-rdk-wan" remote="github" path="meta-rdk-wan" revision="main" />
+    <project name="meta-cmf-broadband" remote="rdkcentral" path="meta-cmf-broadband" revision="f0d6f0ccb01c84d01e3a252ca8b862aa5beaefef" />
+    <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="012e0ca937e7d98658b4845e0472e8fec219003f" />
 </manifest>
 
