@@ -7,3 +7,4 @@
     <project name="rdk/components/opensource/oe/meta-virtualization" path="meta-virtualization" revision="rdk/kirkstone"/>
     <project name="rdk/components/opensource/oe/openembedded-core" path="openembedded-core" revision="rdk/kirkstone"/>
 </manifest>
+
