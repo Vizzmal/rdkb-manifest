@@ -19,5 +19,5 @@
     <project name="rdkcentral/meta-cmf-bananapi" remote="github" path="meta-cmf-bananapi" revision="develop" />
     <project name="rdkcentral/meta-rdk-wan" remote="github" path="meta-rdk-wan" revision="main" />
     <project name="meta-cmf-broadband" remote="rdkcentral" path="meta-cmf-broadband" revision="f0d6f0ccb01c84d01e3a252ca8b862aa5beaefef" />
-    <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="96f79b75d125f28f90b65db3333fa6d13a3bd954" />
+    <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="012e0ca937e7d98658b4845e0472e8fec219003f" />
 </manifest>
