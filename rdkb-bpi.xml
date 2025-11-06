@@ -9,8 +9,8 @@
     <include name="oe-layers.xml" />
     <project name="plume-design/meta-rdk-opensync" remote="github" path="meta-rdk-opensync" revision="osync_4.4.0" />
 
-    <project name="filogic/rdk-b/meta-cmf-filogic" remote="mediatek" path="meta-cmf-filogic" revision="39973f0b37b6afef2be10640bedd9efb359530df" />
-    <project name="filogic/rdk-b/meta-filogic" remote="mediatek" path="meta-filogic" revision="4d1a2a549791f1d57c83d8be89927aed647b62ea" />
+    <project name="filogic/rdk-b/meta-cmf-filogic" remote="mediatek" path="meta-cmf-filogic" revision="211fa3d81ae19cc5c6be731d52b1aa6733336b71" />
+    <project name="filogic/rdk-b/meta-filogic" remote="mediatek" path="meta-filogic" revision="c67a32a7c8876b328a8d1eeaca213e860d85b3ce" />
     
     <project name="rdk/components/generic/rdk-oe/meta-cmf" path="meta-cmf" revision="rdk-next" />
     <project name="rdk/components/generic/rdk-oe/meta-cmf-mesh" path="meta-cmf-mesh" revision="rdk-next" />
