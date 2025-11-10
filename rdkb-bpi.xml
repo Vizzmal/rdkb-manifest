@@ -21,4 +21,5 @@
     <project name="meta-cmf-broadband" remote="rdkcentral" path="meta-cmf-broadband" revision="03d6277f586db29bac53a7451fab10cd50602a2d" />
     <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="c800caa595f7173eab4b39009b830200eb21f1b3" />
     <project name="meta-rdk" remote="rdkcentral"  path="meta-rdk" revision="topic/rdkoss-443_pr" />
+    <project name="meta-rdk-auxiliary" remote="rdkcentral" path="meta-rdk-auxiliary" revision="topic/fr_rdkb" />
 </manifest>
