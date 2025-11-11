@@ -12,7 +12,6 @@
     <project name="filogic/rdk-b/meta-cmf-filogic" remote="mediatek" path="meta-cmf-filogic" revision="211fa3d81ae19cc5c6be731d52b1aa6733336b71" />
     <project name="filogic/rdk-b/meta-filogic" remote="mediatek" path="meta-filogic" revision="c67a32a7c8876b328a8d1eeaca213e860d85b3ce" />
     
-    <project name="rdk/components/generic/rdk-oe/meta-cmf" path="meta-cmf" revision="rdk-next" />
     <project name="rdk/components/generic/rdk-oe/meta-cmf-mesh" path="meta-cmf-mesh" revision="rdk-next" />
     <project name="rdk/components/generic/rdk-oe/meta-rdk-ext" path="meta-rdk-ext" revision="rdk-next" />
     <project name="rdkcentral/meta-cmf-bananapi" remote="github" path="meta-cmf-bananapi" revision="develop" />
@@ -20,6 +19,7 @@
     <project name="rdkcentral/meta-rdk-wan" remote="github" path="meta-rdk-wan" revision="main" />
     <project name="meta-cmf-broadband" remote="rdkcentral" path="meta-cmf-broadband" revision="03d6277f586db29bac53a7451fab10cd50602a2d" />
     <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="feature/CMFSUPPORT-3454" />
+    <project name="meta-cmf" remote="rdkcentral"  path="meta-cmf" revision="feature/CMFSUPPORT-3454" />
     <project name="meta-rdk" remote="rdkcentral"  path="meta-rdk" revision="feature/CMFSUPPORT-3454" />
     <project name="meta-rdk-auxiliary" remote="rdkcentral" path="meta-rdk-auxiliary" revision="topic/fr_rdkb" />
 </manifest>
