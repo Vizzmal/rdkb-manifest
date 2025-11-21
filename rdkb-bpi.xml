@@ -19,7 +19,7 @@
     <project name="rdkcentral/meta-rdk-wan" remote="github" path="meta-rdk-wan" revision="main" />
     <project name="meta-cmf-broadband" remote="rdkcentral" path="meta-cmf-broadband" revision="83fe5495c50267b7920e8141adf78a04cf195ebf" />
     <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="af40b814d75e84461fe313fe350d7dcc46eb5902" />
-    <project name="meta-cmf" remote="rdkcentral" path="meta-cmf" revision="63f7ee79b9d095d7ed7602dc8febf7a8415cda48" />
+    <project name="meta-cmf" remote="rdkcentral" path="meta-cmf" revision="0d679c5b245dc24a394333e6c34faa93d25036da" />
     <project name="meta-rdk" remote="rdkcentral" path="meta-rdk" revision="topic/rdkoss-443_pr" />
     <project name="meta-rdk-auxiliary" remote="rdkcentral" path="meta-rdk-auxiliary" revision="topic/fr_rdkb" />
 </manifest>
