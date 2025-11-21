@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-    <project name="poky" remote="rdkcentral" path="openembedded-core" revision="rdk/kirkstone" />
+    <project name="poky" remote="rdkcentral" path="openembedded-core" revision="support/rdk-4.4.1" />
     <project name="meta-clang" remote="rdkcentral" path="meta-clang" revision="kirkstone" />
     <project name="rdk/components/opensource/oe/meta-gplv2" path="meta-gplv2" revision="kirkstone"/>
     <project name="meta-openembedded" remote="rdkcentral" path="meta-openembedded" revision="rdk/kirkstone" />
