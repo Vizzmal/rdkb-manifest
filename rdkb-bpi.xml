@@ -18,7 +18,7 @@
     <project name="rdkcentral/meta-rdk-broadband-apps" remote="github" path="meta-rdk-broadband-apps" revision="main" />
     <project name="rdkcentral/meta-rdk-iot" remote="github" path="meta-rdk-iot" revision="develop" />
     <project name="rdkcentral/meta-rdk-wan" remote="github" path="meta-rdk-wan" revision="main" />
-    <project name="meta-cmf-broadband" remote="rdkcentral" path="meta-cmf-broadband" revision="83fe5495c50267b7920e8141adf78a04cf195ebf" />
+    <project name="meta-cmf-broadband" remote="rdkcentral" path="meta-cmf-broadband" revision="9480eacc4c8a07a9ad6052e3cf391a7d87d4f2b4" />
     <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="433648118851e8f780f0945c0c9023e7f476320b" />
     <project name="meta-cmf" remote="rdkcentral" path="meta-cmf" revision="0d679c5b245dc24a394333e6c34faa93d25036da" />
     <project name="meta-rdk" remote="rdkcentral" path="meta-rdk" revision="2a053c80596d4c2d7eb22be759cbb0176dfa0a0b" />
