@@ -21,6 +21,6 @@
     <project name="meta-cmf-broadband" remote="rdkcentral" path="meta-cmf-broadband" revision="c6ba8cab6f6538fb813bf1a98d962f0422d5e171" />
     <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="807ec2d6dff6fcf036194866f6bf5bfb45f6f95e" />
     <project name="meta-cmf" remote="rdkcentral" path="meta-cmf" revision="f15194c5f392fb21b1b856ea175bdedd9f794f6c" />
-    <project name="meta-rdk" remote="rdkcentral" path="meta-rdk" revision="ea0d85ccbe44c6b692204111e0649f0a9390519b" />
+    <project name="meta-rdk" remote="rdkcentral" path="meta-rdk" revision="7876b757564521fa1ea23bb4a8774fe630769aef" />
     <project name="meta-rdk-auxiliary" remote="rdkcentral" path="meta-rdk-auxiliary" revision="0c9c8ae974c986365eae3b8a455ab0ed52336266" />
 </manifest>
