@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-    <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="rdk/kirkstone"/>
-    <project name="rdk/components/opensource/oe/meta-clang" path="meta-clang" revision="rdk/kirkstone"/>
-    <project name="rdk/components/opensource/oe/meta-gplv2" path="meta-gplv2" revision="kirkstone"/>
-    <project name="rdk/components/opensource/oe/meta-openembedded" path="meta-openembedded" revision="rdk/kirkstone"/>
-    <project name="rdk/components/opensource/oe/meta-virtualization" path="meta-virtualization" revision="rdk/kirkstone"/>
-    <project name="rdk/components/opensource/oe/openembedded-core" path="openembedded-core" revision="rdk/kirkstone"/>
+    <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="nightly/20260313-kirkstone"/>
+    <project name="rdk/components/opensource/oe/meta-clang" path="meta-clang" revision="nightly/20260313-kirkstone"/>
+    <project name="rdk/components/opensource/oe/meta-gplv2" path="meta-gplv2" revision="nightly/20260313-kirkstone"/>
+    <project name="rdk/components/opensource/oe/meta-openembedded" path="meta-openembedded" revision="nightly/20260313-kirkstone"/>
+    <project name="rdk/components/opensource/oe/meta-virtualization" path="meta-virtualization" revision="nightly/20260313-kirkstone"/>
+    <project name="rdk/components/opensource/oe/openembedded-core" path="openembedded-core" revision="nightly/20260313-kirkstone"/>
 </manifest>
