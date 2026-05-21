@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-    <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="rdkb-2026q1-kirkstone"/>
-    <project name="rdk/components/opensource/oe/meta-clang" path="meta-clang" revision="rdkb-2026q1-kirkstone"/>
-    <project name="rdk/components/opensource/oe/meta-gplv2" path="meta-gplv2" revision="rdkb-2026q1-kirkstone"/>
-    <project name="rdk/components/opensource/oe/meta-openembedded" path="meta-openembedded" revision="rdkb-2026q1-kirkstone"/>
-    <project name="rdk/components/opensource/oe/meta-virtualization" path="meta-virtualization" revision="rdkb-2026q1-kirkstone"/>
-    <project name="rdk/components/opensource/oe/openembedded-core" path="openembedded-core" revision="rdkb-2026q1-kirkstone"/>
+    <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="feature-rdkb-wrynose"/>
+    <project name="rdk/components/opensource/oe/meta-clang" path="meta-clang" revision="feature-rdkb-wrynose"/>
+    <project name="rdk/components/opensource/oe/meta-gplv2" path="meta-gplv2" revision="feature-rdkb-wrynose"/>
+    <project name="rdk/components/opensource/oe/meta-openembedded" path="meta-openembedded" revision="feature-rdkb-wrynose"/>
+    <project name="rdk/components/opensource/oe/meta-virtualization" path="meta-virtualization" revision="feature-rdkb-wrynose"/>
+    <project name="rdk/components/opensource/oe/openembedded-core" path="openembedded-core" revision="feature-rdkb-wrynose"/>
 </manifest>
