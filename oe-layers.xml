@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-    <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="feature-rdkb-wrynose"/>
+    <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="rdk/wrynose-bb2.18"/>
     <project name="kraj/meta-clang" remote="github" path="meta-clang" revision="wrynose"/>
     <project name="rdk/components/opensource/oe/meta-gplv2" path="meta-gplv2" revision="feature-rdkb-wrynose"/>
-    <project name="rdk/components/opensource/oe/meta-openembedded" path="meta-openembedded" revision="wrynose"/>
+    <project name="rdk/components/opensource/oe/meta-openembedded" path="meta-openembedded" revision="rdk/wrynose"/>
     <project name="rdk/components/opensource/oe/meta-virtualization" path="meta-virtualization" revision="wrynose"/>
-    <project name="rdk/components/opensource/oe/openembedded-core" path="openembedded-core" revision="wrynose"/>
+    <project name="rdk/components/opensource/oe/openembedded-core" path="openembedded-core" revision="rdk/wrynose"/>
     <project name="meta-lts-mixins" path="meta-lts-mixins" remote="yocto" revision="wrynose/rust" dest-branch="wrynose/rust"/>
 </manifest>
